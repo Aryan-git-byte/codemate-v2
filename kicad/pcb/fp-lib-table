@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "resources")(type "KiCad")(uri "/home/aryan-kumar/Projects/codemate-v2/kicad/resources")(options "")(descr ""))
+)
