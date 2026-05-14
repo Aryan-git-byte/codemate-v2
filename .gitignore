@@ -1,8 +1,17 @@
 # KiCad
 *.kicad_prl
-*-backups/
+**/*-backups/
 fp-info-cache
 *~
 *.lck
 *.bak
 *.tmp
+
+# Generated Gerbers
+*.gbr
+*.gbrjob
+*.drl
+
+# OS
+.DS_Store
+Thumbs.db
