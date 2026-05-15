@@ -26,7 +26,7 @@ for this i am using a 2 layer pcb board:
     4. [encoders](3D-models/printable/EncoderKnob.step) - 2x
 3. cover it with the top plate
 4. drill a 2 mm hole near the red holes:
-![instruction](image.png)
+![instruction](instruction.png)
 5. insert 4 m3 inserts in these holes on the main body.
 6. Now, put the soldered pcb with all the components inside the main-body
 7. put the top panel , and put m3 screws. 
