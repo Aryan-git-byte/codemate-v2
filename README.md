@@ -9,7 +9,8 @@ whether you are a programmer, 3d modeller, editor or whatever u can easily use t
 this is the schematic of the project, which u can see here:
 ![schematic](schematic/schematic.jpg)
 you can see the MCU, the key matrix, the LEDs, encoders, everything in this schematic.
-
+# why i made it??
+cuz i believe that having a macropad can ezz my workflow and also give make it faster and more efficient.
 # PCB overview:
 for this i am using a 2 layer pcb board:
 ![PCB](Assets/pcb.png)
@@ -32,7 +33,23 @@ for this i am using a 2 layer pcb board:
 7. put the top panel , and put m3 screws. 
 8. now put the keycaps and the knob onto it.
 9. enjoy <3
+# Firmware:
+written in Arduino framework for ESP32-S3 Zero using these libraries:
+- [FastLED](https://github.com/FastLED/FastLED) — RGB control
+- [Keypad](https://github.com/Chris--A/Keypad) — key matrix
+- [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) — OLED
+- [Adafruit PCF8574](https://github.com/adafruit/Adafruit-PCF8574) — IO expander for encoders
+- USB HID (built into ESP32 Arduino core) — keyboard + media keys
 
+### flashing steps:
+1. opem [Arduino IDE](https://www.arduino-cc/en/software)
+2. add ESP32 board support — paste this in Board Manager URL:
+   `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+3. install the libraries above from Library Manager
+4. select board: `ESP32S3 Dev Module`
+5. plug in USB into the devboard
+6. upload `firmware/firmware.ino` from this repo
+7. done
 # BOM:
 |item name | quantity | unit price | link | total price
 |-|-|-|-|-
