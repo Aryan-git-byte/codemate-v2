@@ -13,9 +13,9 @@ you can see the MCU, the key matrix, the LEDs, encoders, everything in this sche
 # PCB overview:
 for this i am using a 2 layer pcb board:
 ![PCB](Assets/pcb.png)
-![PCB](assets/pcb-back.png)
-![PCB](assets/3d-pcb-back.jpg)
-![PCB](assets/3d-pcb-front.jpg)
+![PCB](Assets/pcb-back.png)
+![PCB](Assets/3d-pcb-back.jpg)
+![PCB](Assets/3d-pcb-front.jpg)
 
 # How to Assemble
 1. get the pcb ordered and solder all the components to it carefully
