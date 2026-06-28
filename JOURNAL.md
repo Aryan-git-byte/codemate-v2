@@ -4,7 +4,7 @@ author: "Aryan-git-byte"
 description: "A 16 key custom hackpad designed to ease simple tasks through one click , with rotary knob to control volumes etc , and a oled with cute eyes, tracking what u doing etc, and fully rgb board"
 created_at: "2026-03-09"
 ---
-# Codemate-v2 : Journal Logs
+
 # March 9th - 11th: Started schematic, assigned footprints, and routed PCB!
 
 Hi so from the last few days i've been working on a project, but coudlnt journal it because i was using obs studio to record and it wasnt supported at that time, then i forgot.
@@ -41,7 +41,7 @@ then i paused for a moment rethink my whole life, and then started drawing schem
 
 schematic on that date:
 
-![alt text](journal-img/image-1.png)
+![schematic](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-1.png)
 
 so yhh these were the work i did on 9 march
 
@@ -53,7 +53,7 @@ today i didnt did much work honestly, i just came and assigned all **footprints*
 
 today's work photo:
 
-![alt text](journal-img/image-2.png)
+![footprints](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-2.png)
 
 nnow dont ask me why are those switches that way in the photo (i fixed that thing when i wasnt recording afterwards, cuz it was a small change)
 
@@ -75,17 +75,17 @@ Youtube: https://youtu.be/ggxAWWdpk_k?si=SCKBwQzEbwkj9NhI
 
 Today i started working on the CAD model of the codemate-v2, here are some pics:
 
-![alt text](journal-img/image-3.png)
+![cad start](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-3.png)
 
 today i also changed my setup from that potato laptop to a beast pc (which is ofc my institute lab's pc) TT.
 
 so i found out that my 3d models of some were missing so i assigned them again , then exported 3d model of the pcb , then made the case around it, starting with the **base**, then **walls**, then the **curvature for the type C**:
 
-![alt text](journal-img/image-4.png)
+![cad base](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-4.png)
 
-![alt text](journal-img/image-5.png)
+![cad walls](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-5.png)
 
-![alt text](journal-img/image-6.png)
+![cad usbc curve](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-6.png)
 
 after which i imported my dxf from **ai03 plate generator**, and started making the top part.
 and as of now i've completed this much design, will do polishing tmrw.
@@ -102,11 +102,11 @@ So i started working on the project and the goal of this session was to start fi
 
 the final build photo:
 
-![alt text](journal-img/image-7.png)
+![final build 1](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-7.png)
 
-![alt text](journal-img/image-8.png)
+![final build 2](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-8.png)
 
-![alt text](journal-img/image-9.png)
+![final build 3](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-9.png)
 
 Lapse: https://public.lapse-hackclub.link/timelapses/eKwN3tI9GYHY/timelapse-eKwN3tI9GYHY.mp4
 
@@ -119,7 +119,7 @@ Lapse: https://public.lapse-hackclub.link/timelapses/eKwN3tI9GYHY/timelapse-eKwN
 Today i read about the **WS2812B NeoPixel** led code, and tested it in **wokwi**.
 first off which i started by setting up the file and wackatime to my **arduino ide**, after that i opened tinker cad and started tinkering with the WS2812B led and arduino to learn about how its code is written. then i downloaded the libraries and boards to my arduino ide and also synced all the timelapses to my hackatime project. then to test the WS2812B led with esp32 i opened the wokwi editor and read docs about the ws2812b led:
 
-![alt text](journal-img/image-10.png)
+![wokwi test](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-10.png)
 
 and then referencing my code from a doc from https://iotwebplanet.com/esp32-with-ws2812-neopixel-led/?srsltid=AfmBOopXigoNd1Ef20ZVot9wFrPmHvmjztVqUW6OPCEOBJlMukhi5L6i
 i got the code to test the leds on the board after soldering them and before soldering other components
@@ -136,7 +136,7 @@ Lapse: https://public.lapse-hackclub.link/timelapses/P3uvmIZazKJ7/timelapse-P3uv
 yoo, why blender is so hardd mannn, like this time again i tried to use blender but god damn itt.
 i had to install like **3 versions** of it , then i got the plugin **pcb2blender** working. and even after importing it i didnt knew what to do with this mann 
 
-![alt text](journal-img/image-11.png)
+![blender struggle](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-11.png)
 
 Lapse: https://public.lapse-hackclub.link/timelapses/H7cz5NOCKMke/timelapse-H7cz5NOCKMke.mp4
 
@@ -148,7 +148,7 @@ Lapse: https://public.lapse-hackclub.link/timelapses/H7cz5NOCKMke/timelapse-H7cz
 
 Hii, so today i started by opening the codemate-v2 PCB, and assigning **3d models of keycaps & knob** to switches and encoders, it was a hard time finding models as most were in **stl files**, but stilll i smhow converted those stls to steps and assigned em, and it looks pretyy nice now:
 
-![alt text](journal-img/image-12.png)
+![keycaps assigned](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-12.png)
 
 so after that i started to import this pcb in **fusion 360** and now will work on it further    
 
@@ -162,11 +162,11 @@ Lapse: https://public.lapse-hackclub.link/timelapses/jFNNw9AM3DWv/timelapse-jFNN
 
 i started by importing the exported 3d model of my pcb in kicad but omg the strain it was putting on my gpu and cpu due to its **millions of faces** but still i thought this is workable and i tried to work with this:
 
-![alt text](journal-img/image-13.png)
+![fusion heavy](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-13.png)
 
 and rendered it :
 
-![alt text](journal-img/image-14.png)
+![render](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-14.png)
 
 so after that i came back 2 days later , trying to render it beautifully again and adding appearances to faces etc
 but this was so heavy heavy that i had to work on fixing it.
@@ -183,11 +183,11 @@ Lapse: https://public.lapse-hackclub.link/timelapses/nAhz6AsD8Oq7/timelapse-nAhz
 
 I started by first opening fusion 360 and rendering my product which turned out very good: 
 
-![alt text](journal-img/image-15.png)
+![final render](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-15.png)
 
 After that I started working on the **zine** which also turned out very good :
 
-![alt text](journal-img/image-16.png)
+![zine](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-16.png)
 
 Its a very minimalist aesthetic zine, my favourite as of now
 
@@ -203,12 +203,12 @@ Lapse: https://public.lapse-hackclub.link/timelapses/e-RqM5W6dsiw/timelapse-e-Rq
 
 i started by completing my **BOM**:
 
-![alt text](journal-img/image-17.png)
+![bom](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-17.png)
 
 which u can see in my repo.
 after that i also arranged my repo and added everything and also wrote the readme 
 
-![alt text](journal-img/image-18.png)
+![readme](https://raw.githubusercontent.com/Aryan-git-byte/codemate-v2/master/journal-img/image-18.png)
 
 Lapse: https://public.lapse-hackclub.link/timelapses/yTrNAkjzAvJ_/timelapse-yTrNAkjzAvJ_.mp4
 
