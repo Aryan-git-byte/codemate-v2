@@ -10,9 +10,7 @@ created_at: "2026-03-09"
 Hi so from the last few days i've been working on a project, but coudlnt journal it because i was using obs studio to record and it wasnt supported at that time, then i forgot.
 so this is a combined journal of 3 days work, lets start:
 
----
-
-## Date - 9/03
+**Date - 9/03**
 
 so i wanted to upgrade my previous codemate (https://github.com/Aryan-git-byte/CodeMate)    
 and make a version 2 of it, which will have more buttons & aesthetic too.   
@@ -45,9 +43,7 @@ schematic on that date:
 
 so yhh these were the work i did on 9 march
 
----
-
-## 10/03
+**10/03**
 
 today i didnt did much work honestly, i just came and assigned all **footprints** and **3d models** of each symbol (yhh this was a pain too) i mean it didnt take that long but frustrated me enough 
 
@@ -57,9 +53,7 @@ today's work photo:
 
 nnow dont ask me why are those switches that way in the photo (i fixed that thing when i wasnt recording afterwards, cuz it was a small change)
 
----
-
-## 11/03
+**11/03**
 
 today i started my another peaceful day not knowing what is waiting for me in that scary software of **kicad**, i started recording opened kicad, everything seems to be going normal, i was routing then after some routing i came to routing leds, which were nightmare, all leds were placed not in numberwise but here & there so because of that i had to redo the schematic of the leds, arrange them in the way i had did in my pcb, so after all these i finally routed all the compennts and completed it.
 
@@ -68,8 +62,6 @@ the pcb , next is **3D model of the case**, which i believe willl be done soon
 Youtube: https://youtu.be/ggxAWWdpk_k?si=SCKBwQzEbwkj9NhI
 
 **Total time spent: ~5h 53 min**
-
----
 
 # March 19th: Started CAD model of the case!
 
